@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.container {
+    /**/
+    display: flex;
+    /**/
+    flex-direction: column;
+    /*background-color: aqua;*/
+    padding: 5px;
+    /**/
+    border: 1px solid black;
+    /**/
+    background-image: url(/Pictures/paisaje1.png);
+    /**/
+    background-size: cover;
+    /**/
+    background-position: center center;
+    /**/
+    background-repeat: no-repeat;
+    /**/
+    background-attachment: fixed;
+    /**/
+    height: auto;
+}
+
+.nav {
+    color:cornflowerblue;
+    /**/
+    gap: 20px;
+    /**/
+    display: flex;
+    /**/
+    flex-direction: row;
+    /**/
+    position: fixed;
+    /**/
+    /*Ubica las opciones del nav a la derecha*/
+    justify-content: center;
+    /**/
+    align-items: baseline;
+    /*Color fondo del nav*/
+    /*background-color: rgb(255, 171, 237);*/
+
+    top: 0;
+    /**/
+    left: 0;
+    /**/
+    width: 100%;
+    /**/
+    z-index: 1000;
+
+    .picture{
+        margin-top: 1%;
+        img {
+
+            width: 60px;
+            height: 60px;
+            border-radius: 60%;
+        }
+    }
+
+    .box {
+        /*
+        border: 3px solid black;
+        
+        background-color: rgb(255, 165, 210);
+        */
+        text-align: center;
+        /**/
+        margin: 15px;
+    }
+}
+
+.section {
+    /**/
+    margin-top: 10%;
+    /**/
+    /*background-color: rgb(247, 240, 245);*/
+
+    .article {
+        .card {
+            /*
+            background-color: rgb(228, 57, 191);
+            */
+            border: 3px solid black;
+            /**/
+            margin: 10px;
+            /**/
+            padding: 10px;
+            /**/
+            text-align: center;
+        }
+    }
+}
